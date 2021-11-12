@@ -13,6 +13,7 @@ let addFlag = false;
 let removeFlag = false;
 
 let lockClass = "fa-lock";
+
 let unlockClass = "fa-lock-open";
 
 let ticketsArr = [];
