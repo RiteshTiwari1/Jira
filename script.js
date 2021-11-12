@@ -17,6 +17,7 @@ let unlockClass = "fa-lock-open";
 
 let ticketsArr = [];
 
+
 if (localStorage.getItem("jira_tickets")) {
     // Retrieve and display tickets
     ticketsArr = JSON.parse(localStorage.getItem("jira_tickets"));
